@@ -17,11 +17,19 @@
         background-color: #C8D5B9;
         color: #fff;
         padding: 20px;
+        text-align: center;
     }
 
+    p {
+      max-width: 300px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 20px
+    }
   
     h1 {
         margin: 0;
+        margin-bottom: 20px
     }
   
     nav ul {
@@ -38,6 +46,16 @@
     nav ul li a {
         color: #333;
         text-decoration: none;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 10px; /* Opcional: Agrega espacio entre los elementos */
     }
     
     main {
@@ -63,12 +81,16 @@
     #inicio {
         background-color: #F2F5A9;
         padding: 20px;
+        
     }
 
-    .logo {
+    .logo img {
         width: 150px; /* Ajusta el ancho de la imagen según tus necesidades */
         height: 150px; /* Esto permite que la altura se ajuste automáticamente de acuerdo al ancho */
         border-radius: 50%;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
   
   
@@ -98,12 +120,13 @@
 <body>
   <header>
     <img src="https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Descripción de la imagen" class="logo">
-    <h1>Mi Nombre</h1>
+    <h1>César Rivero</h1>
+    <p>Diseñador web con experiencia en WordPress, JavaScript, HTML/CSS y redacción web para marketing digital.</p>
     <ul>
-        <li><a href="https://www.facebook.com/tu-perfil-de-facebook" target="_blank">Facebook</a></li>
-        <li><a href="https://www.twitter.com/tu-perfil-de-twitter" target="_blank">Twitter</a></li>
-        <li><a href="https://www.instagram.com/tu-perfil-de-instagram" target="_blank">Instagram</a></li>
-      </ul>
+      <li><a href="https://www.facebook.com/tu-perfil-de-facebook" target="_blank">Facebook</a></li>
+      <li><a href="https://www.twitter.com/tu-perfil-de-twitter" target="_blank">Twitter</a></li>
+      <li><a href="https://www.instagram.com/tu-perfil-de-instagram" target="_blank">Instagram</a></li>
+    </ul>
   </header>
 
   <nav>
@@ -149,5 +172,4 @@
   </footer>
 </body>
 </html>
-
 
